@@ -1,5 +1,5 @@
 {
-  "name": "sw-world",
+  "name": "@mizchi/mdx-starter",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -12,8 +12,7 @@
   },
   "devDependencies": {
     "mdx-deck": "^1.7.0",
-    "netlify-cli": "^1.2.3",
-    "raw-loader": "^0.5.1"
+    "netlify-cli": "^1.2.3"
   },
   "dependencies": {
     "react-syntax-highlighter": "^8.0.1"

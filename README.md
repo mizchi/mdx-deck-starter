@@ -1,4 +1,4 @@
-# My mdx-deck boilerpltae
+# My mdx-deck starter
 
 ## How to use
 
