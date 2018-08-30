@@ -2,5 +2,20 @@
   "name": "sw-world",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "deploy": "netlify deploy -p dist",
+    "release": "yarn build && yarn deploy",
+    "format": "prettier --parser mdx deck.mdx --write"
+  },
+  "devDependencies": {
+    "mdx-deck": "^1.7.0",
+    "netlify-cli": "^1.2.3",
+    "raw-loader": "^0.5.1"
+  },
+  "dependencies": {
+    "react-syntax-highlighter": "^8.0.1"
+  }
 }
